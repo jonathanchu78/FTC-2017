@@ -1,0 +1,183 @@
+/*////////////////// START FONTS ////////////////////////////////*/
+@font-face{font-family: 'TheBoldFont'; src: url(Fonts/TheBoldFont.ttf) format('truetype');}
+@font-face{font-family: 'LostInWild'; src: url(Fonts/LostInWild.ttf) format('truetype');}
+@font-face{font-family: 'Tribeca'; src: url(Fonts/Tribeca.ttf) format('truetype');}
+@font-face{font-family: 'SouthAfirkas'; src: url(Fonts/SouthAfirkas.ttf) format('truetype');}
+/*////////////////// END FONTS ////////////////////////////////*/
+
+
+/*////////////////// START MAIN ////////////////////////////////*/
+div.body{
+	text-align: center;
+	font-family: ;
+}
+
+body {
+	margin-top: 100px;
+}
+/*////////////////// END MAIN ////////////////////////////////*/
+
+
+
+/*////////////////// NAVBAR START ////////////////////////////////*/
+.navbar-default {
+	height: 100px;
+	background-color: #260f12;
+	border: none;
+}
+
+.navbar {
+	background-image: url(Assets/Stripes_White.png) !important;
+	background-repeat: no-repeat;
+}
+
+img.navbg{
+	width: 100%;
+	padding: 0; margin: 0;
+}
+
+div.nav{
+	position: relative;
+	z-index: 1;
+}
+
+img.cki{
+	height: 90px; 
+}
+
+.navbar-brand{
+	padding: 0 0 0 10px;
+}
+
+.navbar-default .navbar-nav li a{
+  font-size:22px;
+  color:white;
+  font-family:"Century Gothic", sans-serif;
+  font-weight: 400;
+  text-shadow:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 100px;
+  transition: 0.3s ease;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color: #72191b;
+}
+
+li.cnh{
+	margin-left: 10px;
+}
+
+img.cnh {
+	height: 80px;
+	margin: 5px 20px 0px 0;
+}
+
+/*Changing Bootstrap*/
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/*////////////////// NAVBAR END ////////////////////////////////*/
+
+
+/*////////////////// ALL SECTIONS BEGIN ////////////////////////////////*/
+div.R{
+	text-align: center;
+	height: 100%;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.s{
+	width: 100%;
+}
+
+div.hover{
+	display: none;
+	font-size: 18px;
+	color: white;
+	font-family: Century Gothic;
+}
+
+h1{
+	font-family: "TheBoldFont";
+	font-size: 80px;
+	color: white;
+	display: block;
+}
+
+/*////////////////// ALL SECTIONS END ////////////////////////////////*/
+
+
+/*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
+div.section1{
+	background: #72191b;
+	height: 500px;
+}
+
+div.R1:hover div.hover1 {
+	display: block;
+}
+
+/*////////////////// SECTION 1 END ////////////////////////////////*/
+
+/*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
+div.section2{
+	background: #cc6032;
+	height: 500px;
+}
+
+div.R2:hover div.hover2 {
+	display: block;
+}
+
+/*////////////////// SECTION 2 END ////////////////////////////////*/
+
+/*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
+div.section3{
+	background: #eb8d3a;
+	height: 500px;
+}
+
+div.R3:hover div.hover3 {
+	display: block;
+}
+
+/*////////////////// SECTION 3 END ////////////////////////////////*/
+
+/*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
+div.section4{
+	background: #fde079;
+	height: 500px;
+}
+
+div.R4:hover div.hover4 {
+	display: block;
+}
+
+/*////////////////// SECTION 4 END ////////////////////////////////*/
