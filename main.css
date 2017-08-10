@@ -31,11 +31,6 @@ body {
 	background-repeat: no-repeat;
 }
 
-img.navbg{
-	width: 100%;
-	padding: 0; margin: 0;
-}
-
 div.nav{
 	position: relative;
 	z-index: 1;
@@ -70,8 +65,8 @@ li.cnh{
 }
 
 img.cnh {
-	height: 72px;
-	margin: 5px 20px 0px 0;
+	height: 78px;
+	margin: -10px 20px 0px 0;
 }
 
 /*Changing Bootstrap*/
