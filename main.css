@@ -8,6 +8,7 @@
 
 /*////////////////// START MAIN ////////////////////////////////*/
 div.body{
+	height: 500px;
 	text-align: center;
 	font-family: ;
 }
@@ -113,6 +114,16 @@ div.R{
     justify-content: center;
 }
 
+div.L{
+	height: 100%;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century gothic;
+    color: white;
+}
+
 div.s{
 	width: 100%;
 }
@@ -133,11 +144,35 @@ h1{
 
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
+/*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
+div.section-1{ 
+	font-family: century gothic;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/*////////////////// SECTION -1 END ////////////////////////////////*/
+
+
+/*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
+div.section0{
+	padding: 0 200px 0 200px;
+	font-family: century gothic;
+	color: white;
+	background: #4d0000;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*////////////////// SECTION 0 END ////////////////////////////////*/
+
 
 /*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
 div.section1{
 	background: #72191b;
-	height: 500px;
 }
 
 div.R1:hover div.hover1 {
@@ -149,7 +184,6 @@ div.R1:hover div.hover1 {
 /*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
 div.section2{
 	background: #cc6032;
-	height: 500px;
 }
 
 div.R2:hover div.hover2 {
@@ -161,7 +195,6 @@ div.R2:hover div.hover2 {
 /*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
 div.section3{
 	background: #eb8d3a;
-	height: 500px;
 }
 
 div.R3:hover div.hover3 {
@@ -173,7 +206,6 @@ div.R3:hover div.hover3 {
 /*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
 div.section4{
 	background: #fde079;
-	height: 500px;
 }
 
 div.R4:hover div.hover4 {
