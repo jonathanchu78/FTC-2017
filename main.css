@@ -10,7 +10,6 @@
 div.body{
 	height: 500px;
 	text-align: center;
-	font-family: ;
 }
 
 body {
@@ -43,7 +42,7 @@ div.nav{
 }
 
 img.cki{
-	height: 90px; 
+	height: 100px; 
 }
 
 .navbar-brand{
