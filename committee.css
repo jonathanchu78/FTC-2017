@@ -1,0 +1,43 @@
+body{
+	color: black;
+	text-align: center;
+}
+
+img.group{
+	width: 100%;
+}
+
+div.header{
+	display: block;
+}
+
+h1{
+	font-family: "SouthAfirkas";
+	font-size: 30px;
+	padding: 50px 0 30px 0;
+}
+
+h3{
+	font-family: "TheBoldFont";
+	font-size: 26px;
+}
+
+h4{
+	font-family: "century gothic";
+	font-size: 19px;
+}
+
+p{
+	font-family: century gothic;
+	font-size: 17px;
+}
+
+div.profile{
+	margin: 0;
+	padding: 30px 0;
+}
+
+img.img-circle{
+	margin: 0 auto;
+	width: 60%;
+}

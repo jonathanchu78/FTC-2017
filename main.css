@@ -5,15 +5,25 @@
 @font-face{font-family: 'SouthAfirkas'; src: url(Fonts/SouthAfirkas.ttf) format('truetype');}
 /*////////////////// END FONTS ////////////////////////////////*/
 
+/* ////////////////// COLORS ///////////////////////////////////
+#4d0000
+#72191b
+#cc6032
+#eb8d3a
+#fde079
+*/
+
 
 /*////////////////// START MAIN ////////////////////////////////*/
 div.body{
-	height: 500px;
+	height: 350px;
 	text-align: center;
 }
 
 body {
 	margin-top: 100px;
+	text-align: center;
+	font-family: century gothic;
 }
 /*////////////////// END MAIN ////////////////////////////////*/
 
@@ -27,7 +37,7 @@ body {
 }
 
 .navbar {
-	background-image: url(Assets/Stripes_White.png) !important;
+	background-image: url(Assets/Stripes_Long.png) !important;
 	background-repeat: no-repeat;
 }
 
@@ -70,7 +80,7 @@ img.cnh {
 }
 
 /*Changing Bootstrap*/
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .navbar-header {
         float: none;
     }
@@ -100,7 +110,7 @@ img.cnh {
 
 
 /*////////////////// ALL SECTIONS BEGIN ////////////////////////////////*/
-div.R{
+div.H{
 	text-align: center;
 	height: 100%;
 	display:flex;
@@ -108,7 +118,7 @@ div.R{
     justify-content: center;
 }
 
-div.L{
+div.D{
 	height: 100%;
 	text-align: center;
 	display:flex;
@@ -118,22 +128,33 @@ div.L{
     color: white;
 }
 
+div.R{
+	padding: 0 10% 0 0;
+}
+
+div.L{
+	padding: 0 0 0 10%;
+}
+
 div.s{
 	width: 100%;
 }
 
 div.hover{
+	text-align: left;
 	display: none;
-	font-size: 18px;
+	font-size: 15px;
 	color: white;
 	font-family: Century Gothic;
+	margin: 0 10%;
 }
 
 h1{
-	font-family: "TheBoldFont";
-	font-size: 80px;
-	color: white;
-	display: block;
+	font-family: "SouthAfirkas";
+	font-size: 30px;
+	padding: 50px 0 30px 0;
+	color: black;
+
 }
 
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
@@ -154,7 +175,7 @@ div.section0{
 	padding: 0 200px 0 200px;
 	font-family: century gothic;
 	color: white;
-	background: #4d0000;
+	background: #999;
 	text-align: center;
 	display:flex;
     align-items: center;
@@ -162,13 +183,19 @@ div.section0{
 }
 
 /*////////////////// SECTION 0 END ////////////////////////////////*/
+/* ////////////////// COLORS ///////////////////////////////////
+#4d0000, #72191b, #cc6032, #eb8d3a, #fde079
+*/
 
-
-/*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
-div.section1{
-	background: #72191b;
+div.background{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#992600, #cc6032, #eb8d3a, #fde079); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#992600, #cc6032, #eb8d3a, #fde079); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#992600, #cc6032, #eb8d3a, #fde079); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* Standard syntax */
 }
 
+/*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
 div.R1:hover div.hover1 {
 	display: block;
 }
@@ -176,21 +203,13 @@ div.R1:hover div.hover1 {
 /*////////////////// SECTION 1 END ////////////////////////////////*/
 
 /*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
-div.section2{
-	background: #cc6032;
-}
-
-div.R2:hover div.hover2 {
+div.L2:hover div.hover2 {
 	display: block;
 }
 
 /*////////////////// SECTION 2 END ////////////////////////////////*/
 
 /*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
-div.section3{
-	background: #eb8d3a;
-}
-
 div.R3:hover div.hover3 {
 	display: block;
 }
@@ -198,11 +217,7 @@ div.R3:hover div.hover3 {
 /*////////////////// SECTION 3 END ////////////////////////////////*/
 
 /*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
-div.section4{
-	background: #fde079;
-}
-
-div.R4:hover div.hover4 {
+div.L4:hover div.hover4 {
 	display: block;
 }
 

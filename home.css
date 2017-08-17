@@ -1,0 +1,224 @@
+/*////////////////// START FONTS ////////////////////////////////*/
+@font-face{font-family: 'TheBoldFont'; src: url(Fonts/TheBoldFont.ttf) format('truetype');}
+@font-face{font-family: 'LostInWild'; src: url(Fonts/LostInWild.ttf) format('truetype');}
+@font-face{font-family: 'Tribeca'; src: url(Fonts/Tribeca.ttf) format('truetype');}
+@font-face{font-family: 'SouthAfirkas'; src: url(Fonts/SouthAfirkas.ttf) format('truetype');}
+/*////////////////// END FONTS ////////////////////////////////*/
+
+/* ////////////////// COLORS ///////////////////////////////////
+#4d0000
+#72191b
+#cc6032
+#eb8d3a
+#fde079
+*/
+
+
+/*////////////////// START MAIN ////////////////////////////////*/
+div.body{
+	height: 400px;
+	text-align: center;
+}
+
+body {
+	margin-top: 100px;
+	text-align: center;
+	font-family: century gothic;
+}
+/*////////////////// END MAIN ////////////////////////////////*/
+
+
+
+/*////////////////// NAVBAR START ////////////////////////////////*/
+.navbar-default {
+	height: 100px;
+	background-color: #260f12;
+	border: none;
+}
+
+.navbar {
+	background-image: url(Assets/Stripes_Long.png) !important;
+	background-repeat: no-repeat;
+}
+
+div.nav{
+	position: relative;
+	z-index: 1;
+}
+
+img.cki{
+	height: 100px; 
+}
+
+.navbar-brand{
+	padding: 0 0 0 10px;
+}
+
+.navbar-default .navbar-nav li a{
+  font-size:22px;
+  color:white;
+  font-family:"Century Gothic", sans-serif;
+  font-weight: 400;
+  text-shadow:none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 100px;
+  transition: 0.3s ease;
+}
+
+.navbar-default .navbar-nav li a:hover{
+	color: #72191b;
+}
+
+li.cnh{
+	margin-left: 10px;
+}
+
+img.cnh {
+	height: 78px;
+	margin: -10px 20px 0px 0;
+}
+
+/*Changing Bootstrap*/
+@media (max-width: 1250px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+/*////////////////// NAVBAR END ////////////////////////////////*/
+
+
+/*////////////////// ALL SECTIONS BEGIN ////////////////////////////////*/
+div.H{
+	text-align: center;
+	height: 100%;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.D{
+	height: 100%;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: century gothic;
+    color: white;
+}
+
+div.R{
+	padding: 0 10% 0 0;
+}
+
+div.L{
+	padding: 0 0 0 10%;
+}
+
+div.s{
+	width: 100%;
+}
+
+div.hover{
+	text-align: center;
+	display: none;
+	font-size: 15px;
+	color: white;
+	font-family: Century Gothic;
+	margin: 0 10%;
+}
+
+h1{
+	font-family: "SouthAfirkas";
+	font-size: 30px;
+	padding: 50px 0 30px 0;
+	color: black;
+
+}
+
+/*////////////////// ALL SECTIONS END ////////////////////////////////*/
+
+/*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
+div.section-1{ 
+	font-family: century gothic;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/*////////////////// SECTION -1 END ////////////////////////////////*/
+
+
+/*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
+div.section0{
+	padding: 0 200px 0 200px;
+	font-family: century gothic;
+	color: white;
+	background: #4d0000;
+	text-align: center;
+	display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*////////////////// SECTION 0 END ////////////////////////////////*/
+/* ////////////////// COLORS ///////////////////////////////////
+#4d0000, #72191b, #cc6032, #eb8d3a, #fde079
+*/
+
+div.background{
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #fde079); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #fde079); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #fde079); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#992600, #cc6032, #eb8d3a, #ffeb99); /* Standard syntax */
+}
+
+/*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
+div.R1:hover div.hover1 {
+	display: block;
+}
+
+/*////////////////// SECTION 1 END ////////////////////////////////*/
+
+/*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
+div.L2:hover div.hover2 {
+	display: block;
+}
+
+/*////////////////// SECTION 2 END ////////////////////////////////*/
+
+/*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
+div.R3:hover div.hover3 {
+	display: block;
+}
+
+/*////////////////// SECTION 3 END ////////////////////////////////*/
+
+/*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
+div.L4:hover div.hover4 {
+	display: block;
+}
+
+/*////////////////// SECTION 4 END ////////////////////////////////*/

@@ -1,0 +1,62 @@
+/* ////////////////// COLORS ///////////////////////////////////
+#4d0000, #72191b, #cc6032, #eb8d3a, #fde079
+*/
+
+
+div.background {
+	padding: 30px 0 200px 0;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066, white); /* Standard syntax */
+}
+
+div.attendee{
+	display: block;
+	margin: 0 15%;
+	background: white;
+	padding: 20px 30px 1px 30px;
+}
+
+p{
+	font-size: 15.5px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Rt {
+		float: right;
+    }
+}
+
+div.FAQ{
+	display: block;
+	margin: 70px 15% 0 15%;
+	padding: 20px 40px;
+	background: white;
+	text-align: left;
+}
+
+h1.FAQ{
+	margin-bottom: 30px;
+}
+
+h1{
+	padding: 0;
+	text-align: center;
+}
+
+h2{
+	font-family: "TheBoldFont";
+	padding: 0;
+	margin: 0;
+	font-size: 20px;
+}
+
+
+
+div.bottom{
+	padding-top: 200px
+}
