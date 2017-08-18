@@ -31,7 +31,6 @@ body {
 
 /*////////////////// NAVBAR START ////////////////////////////////*/
 .navbar-default {
-	height: 95px;
 	background-color: #260f12;
 	border: none;
 }
@@ -39,11 +38,6 @@ body {
 .navbar {
 	background-image: url(Assets/Stripes_Long.png) !important;
 	background-repeat: no-repeat;
-}
-
-div.nav{
-	position: relative;
-	z-index: 1;
 }
 
 img.cki{
@@ -63,6 +57,10 @@ img.cki{
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 95px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
   transition: 0.3s ease;
 }
 
@@ -79,7 +77,11 @@ img.cnh {
 	margin: -12px 10px 0px 0;
 }
 
-/*Changing Bootstrap*/
+.navbar-header{
+	margin: 22.5px 0;
+}
+
+
 @media (max-width: 1250px) {
     .navbar-header {
         float: none;
@@ -90,9 +92,6 @@ img.cnh {
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
-    }
-    .navbar-collapse.collapse {
-        display: none!important;
     }
     .navbar-nav {
         float: none!important;
