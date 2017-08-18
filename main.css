@@ -21,7 +21,7 @@ div.body{
 }
 
 body {
-	margin-top: 100px;
+	margin-top: 95px;
 	text-align: center;
 	font-family: century gothic;
 }
@@ -31,7 +31,7 @@ body {
 
 /*////////////////// NAVBAR START ////////////////////////////////*/
 .navbar-default {
-	height: 100px;
+	height: 95px;
 	background-color: #260f12;
 	border: none;
 }
@@ -47,11 +47,11 @@ div.nav{
 }
 
 img.cki{
-	height: 100px; 
+	height: 90px; 
 }
 
 .navbar-brand{
-	padding: 0 0 0 10px;
+	padding: 2px 0 0 10px;
 }
 
 .navbar-default .navbar-nav li a{
@@ -62,7 +62,7 @@ img.cki{
   text-shadow:none;
   padding-top: 0px;
   padding-bottom: 0px;
-  line-height: 100px;
+  line-height: 95px;
   transition: 0.3s ease;
 }
 
@@ -71,12 +71,12 @@ img.cki{
 }
 
 li.cnh{
-	margin-left: 10px;
+	margin-left: 0;
 }
 
 img.cnh {
 	height: 78px;
-	margin: -10px 20px 0px 0;
+	margin: -12px 10px 0px 0;
 }
 
 /*Changing Bootstrap*/
