@@ -3,6 +3,7 @@
 @font-face{font-family: 'LostInWild'; src: url(Fonts/LostInWild.ttf) format('truetype');}
 @font-face{font-family: 'Tribeca'; src: url(Fonts/Tribeca.ttf) format('truetype');}
 @font-face{font-family: 'SouthAfirkas'; src: url(Fonts/SouthAfirkas.ttf) format('truetype');}
+@font-face{font-family: 'CenturyGothic'; src: url(Fonts/CenturyGothic.ttf) format('truetype');}
 /*////////////////// END FONTS ////////////////////////////////*/
 
 /* ////////////////// COLORS ///////////////////////////////////
@@ -16,7 +17,6 @@
 
 /*////////////////// START MAIN ////////////////////////////////*/
 div.body{
-	height: 350px;
 	text-align: center;
 }
 
@@ -51,7 +51,7 @@ img.cki{
 .navbar-default .navbar-nav li a{
   font-size:22px;
   color:white;
-  font-family:"Century Gothic", sans-serif;
+  font-family:"CenturyGothic", sans-serif;
   font-weight: 400;
   text-shadow:none;
   padding-top: 0px;
@@ -139,7 +139,7 @@ div.D{
 	display:flex;
     align-items: center;
     justify-content: center;
-    font-family: century gothic;
+    font-family: "CenturyGothic";
     color: white;
 }
 
@@ -160,7 +160,7 @@ div.hover{
 	display: none;
 	font-size: 15px;
 	color: white;
-	font-family: Century Gothic;
+	font-family: "CenturyGothic";
 	margin: 0 10%;
 }
 
@@ -172,11 +172,15 @@ h1{
 
 }
 
+div.grad{
+	padding: 200px 0;
+}
+
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
 /*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
 div.section-1{ 
-	font-family: century gothic;
+	font-family: "CenturyGothic";
 	text-align: center;
 	display:flex;
     align-items: center;
@@ -187,22 +191,23 @@ div.section-1{
 
 /*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
 div.section0{
-	padding: 0 200px 0 200px;
-	font-family: century gothic;
-	color: white;
-	background: #999;
-	text-align: center;
-	display:flex;
-    align-items: center;
-    justify-content: center;
+	font-family: "CenturyGothic";
+	padding: 0;
+	margin: 0;
 }
 
+img.Lindon{
+	margin: 0;
+	width: 100%;
+}
 /*////////////////// SECTION 0 END ////////////////////////////////*/
+
 /* ////////////////// COLORS ///////////////////////////////////
 #4d0000, #72191b, #cc6032, #eb8d3a, #fde079
 */
 
 div.background{
+	margin: -2px 0 0 0; padding: 0;
     background: red; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#992600, #cc6032, #eb8d3a, #fde079); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#992600, #cc6032, #eb8d3a, #fde079); /* For Opera 11.1 to 12.0 */
