@@ -55,9 +55,8 @@ img.cki{
   font-weight: 400;
   text-shadow:none;
   padding-top: 0px;
-  padding-bottom: 0px;
+  padding-bottom: 0px;  -webkit-transition: all 0.3s ease-out;
   line-height: 95px;
-  -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -74,15 +73,17 @@ li.cnh{
 
 img.cnh {
 	height: 78px;
-	margin: -12px 10px 0px 0;
+	margin: -4px 10px 0 0;
 }
 
 .navbar-header{
 	margin: 22.5px 0;
 }
 
-
-@media (max-width: 1250px) {
+@media (max-width: 1190px) {
+	.navbar-default .navbar-nav li a{
+		line-height: 42px;
+	}
     .navbar-header {
         float: none;
     }
@@ -92,6 +93,9 @@ img.cnh {
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
     }
     .navbar-nav {
         float: none!important;
@@ -104,7 +108,19 @@ img.cnh {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    .navbar-text {
+        float: none;
+        margin: 9px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }
+
 /*////////////////// NAVBAR END ////////////////////////////////*/
 
 
