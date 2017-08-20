@@ -190,6 +190,19 @@ div.section-1{
 
 
 /*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
+div.section0{padding: 0;margin: 0;}
+div.left {margin: 0; padding: 0;}
+div.right{margin: 0; padding: 0;}
+
+img.left{
+	margin: 0; padding: 0;
+	width: 100%;
+}
+
+img.right{
+	margin: 0; padding: 0;
+	width: 100%;
+}
 
 /*////////////////// SECTION 0 END ////////////////////////////////*/
 
@@ -203,7 +216,7 @@ div.background{
     background: -webkit-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* Standard syntax */
+    background: linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* Standard syntax */
 }
 
 /*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
@@ -236,20 +249,10 @@ div.L4:hover div.hover4 {
 
 /*////////////////// SECTION 5 END ////////////////////////////////*/
 div.section5{
-	font-family: "CenturyGothic";
-	padding: 0;
-	margin: 0;
+	padding: 0; margin: -50px 0 0 0;
 }
 
-div.left {margin: 0; padding: 0;}
-div.right{margin: 0; padding: 0;}
-img.left{
-	margin: 0; padding: 0;
-	width: 100%;
-}
-
-img.right{
-	margin: 0; padding: 0;
+img.LS{
 	width: 100%;
 }
 /*////////////////// SECTION 5 END ////////////////////////////////*/
