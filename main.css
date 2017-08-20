@@ -125,43 +125,28 @@ img.cnh {
 
 
 /*////////////////// ALL SECTIONS BEGIN ////////////////////////////////*/
-div.H{
-	text-align: center;
-	height: 100%;
-	display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-div.D{
-	height: 100%;
-	text-align: center;
-	display:flex;
-    align-items: center;
-    justify-content: center;
-    font-family: "CenturyGothic";
-    color: white;
-}
-
 div.R{
-	padding: 0 10% 0 0;
+	padding: 0 3% 0 0;
 }
 
 div.L{
-	padding: 0 0 0 10%;
+	padding: 0 0 0 3%;
 }
 
 div.s{
 	width: 100%;
+	height: 300px;
+	padding-top: 50px;
 }
 
 div.hover{
-	text-align: left;
 	display: none;
+	text-align: left;
 	font-size: 15px;
 	color: white;
 	font-family: "CenturyGothic";
 	margin: 0 10%;
+	padding-left: 5%;
 }
 
 h1{
@@ -176,6 +161,17 @@ div.grad{
 	padding: 200px 0;
 }
 
+img.icon{
+	width: 300px;
+}
+
+h1.moveLeft{
+	margin-right: 5%;
+}
+
+div.moveLeft{
+	margin: 0 15% 0 5%;
+}
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
 /*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
@@ -190,7 +186,7 @@ div.section-1{
 
 
 /*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
-div.section0{padding: 0;margin: 0;}
+div.section0{padding: 0;margin: -1px 0 0 0}
 div.left {margin: 0; padding: 0;}
 div.right{margin: 0; padding: 0;}
 
@@ -212,36 +208,43 @@ img.right{
 
 div.background{
 	margin: -2px 0 0 0; padding: 0;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99, white); /* For Firefox 3.6 to 15 */
+    background: #eb8d3a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66, #ffeb99); /* Standard syntax */
 }
 
 /*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
-div.R1:hover div.hover1 {
+div.L1:hover div.hover1 {
 	display: block;
 }
 
 /*////////////////// SECTION 1 END ////////////////////////////////*/
 
 /*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
-div.L2:hover div.hover2 {
+div.R2:hover div.hover2 {
 	display: block;
 }
 
+img.network{
+	width: 350px;
+}
+
+h1.network{
+	margin-right: 10%;
+}
 /*////////////////// SECTION 2 END ////////////////////////////////*/
 
 /*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
-div.R3:hover div.hover3 {
+div.L3:hover div.hover3 {
 	display: block;
 }
 
 /*////////////////// SECTION 3 END ////////////////////////////////*/
 
 /*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
-div.L4:hover div.hover4 {
+div.R4:hover div.hover4 {
 	display: block;
 }
 
