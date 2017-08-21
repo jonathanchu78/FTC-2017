@@ -10,7 +10,54 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<style> h1{color: white;font-family: "TheBoldFont";font-size: 60px;display: block;padding: 0 10%;}</style>
+		<style> 
+			h1{
+				color: white;
+				font-family: "TheBoldFont";
+				font-size: 60px;
+				display: block;
+				padding: 0 10%;
+			}
+			@media only screen and (max-width: 576px) {
+				img.icon{
+					height: 200px;
+				}
+				h1{
+					font-size: 35px;
+				}
+				div.hover{
+					display: block;
+					font-size: 12px;
+				}
+				div.t{
+					height: 200px;
+					margin: 0; padding: 0;
+				}
+				div.s{
+					margin: 0; padding: 0; height: 200px;
+				}
+				img.network{
+					margin-top: 50px;
+				}
+				img.welcome{
+					height: 180px;
+				}
+				div.network{
+					height: 250px;
+				}
+				div.welcome{
+					height: 240px;
+				}
+				div.background{
+					margin: -2px 0 0 0; padding: 0;
+				    background: #eb8d3a; /* For browsers that do not support gradients */
+				    background: -webkit-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66); /* For Safari 5.1 to 6.0 */
+				    background: -o-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66); /* For Opera 11.1 to 12.0 */
+				    background: -moz-linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66); /* For Firefox 3.6 to 15 */
+				    background: linear-gradient(#4d0000, #72191b, #992600, #cc6032, #eb8d3a, #ffcc66); /* Standard syntax */
+				}
+			}
+		</style>
 	</head>
 
 	<!-- ///////////////////// NAVBAR START //////////////////////// -->
@@ -67,10 +114,10 @@
 	<div class="background">
 	<!-- ///////////////////// SECTION 1 BEGIN  //////////////////////// -->
 	<div class="section1 body grad">
-		<div class="L1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-			<img class="icon" src="Assets/Icons/Learn.png" alt="">
+		<div class="t L1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<img class="learn icon" src="Assets/Icons/Learn.png" alt="">
 		</div>
-		<div class="t R R1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="R R1 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<div class="s">
 				<h1>
 					LEARN
@@ -89,7 +136,7 @@
 			<img class="network icon" src="Assets/Icons/Network.png" alt="">
 		</div>
 		<div class="R2 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-			<div class="s">
+			<div class="s network">
 				<h1 class="network">
 					NETWORK
 				</h1> 
@@ -103,11 +150,11 @@
 
 	<!-- ///////////////////// SECTION 3 BEGIN  //////////////////////// -->
 	<div class="section3 body grad">
-		<div class="L3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+		<div class="t L3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<img class="welcome icon" src="Assets/Icons/Welcome.png" alt="">
 		</div>
-		<div class="t R R3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-			<div class="s">
+		<div class="R R3 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+			<div class="s welcome">
 				<h1>
 					WELCOME
 				</h1>
@@ -122,7 +169,7 @@
 	<!-- ///////////////////// SECTION 4 BEGIN  //////////////////////// -->
 	<div class="section4 body grad">
 		<div class="t L L4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
-			<img class="icon" src="Assets/Icons/Enjoy.png" alt="">
+			<img class="enjoy icon" src="Assets/Icons/Enjoy.png" alt="">
 		</div>
 		<div class="R4 col-lg-6 col-md-6 col-sm-12 col-xs-12">
 			<div class="s">

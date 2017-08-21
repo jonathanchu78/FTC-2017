@@ -60,3 +60,17 @@ h2{
 	margin: 0;
 	font-size: 20px;
 }
+
+@media only screen and (max-width: 576px) {
+	div.attendee{
+		display: block;
+		margin: 0 2%;
+		padding: 20px 30px 0 30px;
+	}
+	div.FAQ{
+		display: block;
+		margin: 40px 2% 0 2%;
+		padding: 20px 30px;
+		text-align: left;
+	}
+}
