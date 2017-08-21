@@ -23,7 +23,7 @@ div.body{
 body {
 	margin-top: 95px;
 	text-align: center;
-	font-family: century gothic;
+	font-family: "CenturyGothic";
 }
 /*////////////////// END MAIN ////////////////////////////////*/
 
@@ -51,7 +51,6 @@ img.cki{
 .navbar-default .navbar-nav li a{
   font-size:22px;
   color:white;
-  font-family:"CenturyGothic", sans-serif;
   font-weight: 400;
   text-shadow:none;
   padding-top: 0px;
@@ -65,10 +64,6 @@ img.cki{
 
 .navbar-default .navbar-nav li a:hover{
 	color: #72191b;
-}
-
-li.cnh{
-	margin-left: 0;
 }
 
 img.cnh {
@@ -125,18 +120,15 @@ img.cnh {
 
 
 /*////////////////// ALL SECTIONS BEGIN ////////////////////////////////*/
-div.R{
-	padding: 0 3% 0 0;
-}
-
-div.L{
-	padding: 0 0 0 3%;
-}
 
 div.s{
 	width: 100%;
-	height: 300px;
-	padding-top: 50px;
+	height: 350px;
+	padding-top: 80px;
+}
+
+div.t{
+	height: 350px;
 }
 
 div.hover{
@@ -153,30 +145,23 @@ h1{
 	font-family: "SouthAfirkas";
 	font-size: 30px;
 	padding: 50px 0 30px 0;
-	color: black;
+	color: white;
 
 }
 
 div.grad{
-	padding: 200px 0;
+	padding: 100px 0;
 }
 
 img.icon{
-	width: 300px;
+	height: 350px;
 }
 
-h1.moveLeft{
-	margin-right: 5%;
-}
 
-div.moveLeft{
-	margin: 0 15% 0 5%;
-}
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
 /*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
 div.section-1{ 
-	font-family: "CenturyGothic";
 	text-align: center;
 	display:flex;
     align-items: center;
@@ -216,10 +201,25 @@ div.background{
 }
 
 /*////////////////// SECTION 1 BEGIN ////////////////////////////////*/
-div.L1:hover div.hover1 {
+div.R1:hover div.hover1 {
 	display: block;
 }
 
+div.section1{
+	display: relative;
+}
+
+div.L1  { 
+	display: table-cell; 
+    vertical-align: top;
+    float: right;
+}
+
+div.R1 { 
+	display: table-cell; 
+    vertical-align: top;
+    float: left;
+}
 /*////////////////// SECTION 1 END ////////////////////////////////*/
 
 /*////////////////// SECTION 2 BEGIN ////////////////////////////////*/
@@ -227,20 +227,36 @@ div.R2:hover div.hover2 {
 	display: block;
 }
 
-img.network{
-	width: 350px;
-}
-
-h1.network{
-	margin-right: 10%;
+div.L2{
+	padding-top: 50px;
 }
 /*////////////////// SECTION 2 END ////////////////////////////////*/
 
 /*////////////////// SECTION 3 BEGIN ////////////////////////////////*/
-div.L3:hover div.hover3 {
+div.R3:hover div.hover3 {
 	display: block;
 }
 
+img.welcome{
+	margin-top: 30px;
+	height: 320px;
+}
+
+div.section3{
+	display: relative;
+}
+
+div.L3  { 
+	display: table-cell; 
+    vertical-align: top;
+    float: right;
+}
+
+div.R3 { 
+	display: table-cell; 
+    vertical-align: top;
+    float: left;
+}
 /*////////////////// SECTION 3 END ////////////////////////////////*/
 
 /*////////////////// SECTION 4 BEGIN ////////////////////////////////*/
