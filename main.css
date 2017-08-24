@@ -75,7 +75,7 @@ img.cnh {
 	margin: 22.5px 0;
 }
 
-@media (max-width: 1190px) {
+@media (max-width: 970px) {
 	.navbar-default .navbar-nav li a{
 		line-height: 42px;
 	}
@@ -169,12 +169,27 @@ img.icon{
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
 
+
+
 /*///////////////////// ANIMATION BEGIN ////////////////////////*/
 video{
 	margin: -7% 0 -0.5% 0;
 	width: 100%;
+	position: relative;
+	z-index: 0;
 }
 
+div.video{
+	position:relative;
+}
+
+div.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+    margin-top: -10px;
+}
 /*///////////////////// ANIMATION END ////////////////////////*/
 
 
