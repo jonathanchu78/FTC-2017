@@ -5,7 +5,7 @@ p{
 }
 
 div.pcontainer{
-	max-width: 700px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -14,7 +14,6 @@ li{
 }
 
 div.background {
-	padding: 0 3%;
     background: #eb8d3a; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Opera 11.1 to 12.0 */
@@ -27,7 +26,11 @@ img.DL{
 	margin: 10px -60px 0 0;
 }
 
-
+div.padding{
+	width: 100%;
+	margin: 0;
+	padding: 0 3%;
+}	
 
 div.downloads-panel{
   margin: 0 auto;
@@ -35,7 +38,7 @@ div.downloads-panel{
   text-align: left;
   height:50px;
   width:100%;
-  max-width: 700px;
+  max-width: 800px;
   line-height:50px;
   font-family: "CenturyGothic";
   font-size: 20px;
@@ -92,7 +95,7 @@ div.download-body{
 
 .download-body{
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
 
 }

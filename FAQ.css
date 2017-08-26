@@ -41,6 +41,20 @@ div.FAQ{
 	text-align: left;
 }
 
+div.Q{
+	padding: 0 40px;
+}
+
+div.right{
+	padding-left: 70px;
+}
+
+@media (max-width: 991px) {
+	div.right{
+		padding-left: 40px;
+	}
+}
+
 h1.FAQ{
 	margin-bottom: 30px;
 }
