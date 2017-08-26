@@ -25,6 +25,7 @@ p{
 	font-size: 15.5px;
 	text-align: left;
 	margin-bottom: 30px;
+	color: #f2f2f2;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -58,7 +59,8 @@ h2{
 	font-family: "TheBoldFont";
 	padding: 0;
 	margin: 0;
-	font-size: 20px;
+	font-size: 22px;
+	color: white;
 }
 
 @media only screen and (max-width: 576px) {

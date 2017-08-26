@@ -124,6 +124,12 @@ img.cnh {
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	img.cki{
+		margin-left: -15px;
+	}
+}
+
 /*////////////////// NAVBAR END ////////////////////////////////*/
 
 
@@ -165,7 +171,11 @@ img.icon{
 	height: 350px;
 }
 
-
+@media only screen and (min-width: 1300px) {
+	div.grad{
+		margin-bottom: 15%;
+	}
+}
 /*////////////////// ALL SECTIONS END ////////////////////////////////*/
 
 
@@ -173,34 +183,75 @@ img.icon{
 
 /*///////////////////// ANIMATION BEGIN ////////////////////////*/
 video{
-	margin: -7% 0 -0.5% 0;
 	width: 100%;
 	position: relative;
 	z-index: 0;
+	margin: -10% 0 -2% 0; padding: 0;
 }
 
-div.video{
-	position:relative;
+.container { 
+	width: 100%; 
+	padding: 0;
+	margin: 0; 
+	position: relative;
 }
 
-div.overlay {
-    position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
-    margin-top: -10px;
+div.details{
+	position: absolute;
+	z-index: 1;
+	top: 80%; 
+	width: 100%;
+}
+h2{
+	font-family: "TheBoldFont";
+	color: black;
+	font-size: 40px;
+}
+
+div.filler{
+	height: 20px;
+	margin: 0; padding: 0;
+	background: #F9ED61;
+}
+
+@media only screen and (max-width: 1500px) {
+	h2{
+		font-size: 32px;
+		margin: 10px 0;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	h2{
+		font-size: 25px;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	h2{
+		font-size: 18px;
+		margin: 4px 0;
+	}
+	div.filler{
+		height: 20px;
+	}
 }
 /*///////////////////// ANIMATION END ////////////////////////*/
 
 
-/*////////////////// SECTION -1 BEGIN ////////////////////////////////*/
-div.section-1{ 
-	text-align: center;
-	display:flex;
-    align-items: center;
-    justify-content: center;
+
+/*///////////////////// ANNOUNCEMENTS BEGIN ////////////////////////*/
+div.announcements{
+	height: 0px;
+    background: #eb8d3a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F9ED61, #F9C836); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#F9ED61, #F9C836); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#F9ED61, #F9C836); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#F9ED61, #F9C836); /* Standard syntax */
 }
-/*////////////////// SECTION -1 END ////////////////////////////////*/
+/*///////////////////// ANNOUNCEMENTS END ////////////////////////*/
+
 
 
 /*////////////////// SECTION 0 BEGIN ////////////////////////////////*/

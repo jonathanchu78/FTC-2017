@@ -5,3 +5,51 @@ div.background {
     background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* Standard syntax */
 }
+
+img.DL{
+	height: 40px;
+	margin: 5px 15px 0 0;
+}
+
+div.downloads-panel{
+  text-align: left;
+  height:50px;
+  width:100%;
+  max-width: 700px;
+  line-height:50px;
+  font-family: "CenturyGothic";
+  font-size:20px;
+  font-weight: 400;
+  margin: 0 auto;
+  /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);*/
+  -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   -ms-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+   margin-bottom: 10px;
+   padding-left:10px;
+   border-radius:4px;
+  background-color: #fde079;
+}
+
+div.collapse{
+  color: white;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.downloads-panel a{
+  color:black;
+}
+
+#applications{
+  background-color: #b1d782;
+}
+
+.download-body{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+
+}
