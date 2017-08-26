@@ -4,11 +4,17 @@ p{
 	text-align: left;
 }
 
+div.pcontainer{
+	max-width: 700px;
+	margin: 0 auto;
+}
+
 li{
 	font-size: 15.5px;
 }
 
 div.background {
+	padding: 0 3%;
     background: #eb8d3a; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Opera 11.1 to 12.0 */
@@ -17,11 +23,15 @@ div.background {
 }
 
 img.DL{
-	height: 40px;
-	margin: 5px 15px 0 0;
+	height: 35px;
+	margin: 10px -60px 0 0;
 }
 
+
+
 div.downloads-panel{
+  margin: 0 auto;
+  padding-right: 70px;
   text-align: left;
   height:50px;
   width:100%;
@@ -39,6 +49,35 @@ div.downloads-panel{
    padding-left:10px;
    border-radius:4px;
    background: white;
+}
+
+@media only screen and (max-width: 768px) {
+	div.downloads-panel{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	div.long{
+		height: 60px;
+		line-height: 25px;
+		padding-top: 5px;
+	}
+	div.downloads-panel{
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 487px) {
+	img.long{
+		margin-top: -15px;
+	}
+}
+
+@media only screen and (max-width: 367px) {
+	img.long1{
+		margin-top: -15px;
+	}
 }
 
 div.download-body{
@@ -67,10 +106,6 @@ div.required{
 	padding: 0;
 }
 
-div.downloads-section{
-	margin: 0 20%;
-	padding: 0 2.5%;
-}
 
 div.downloads-panel{
 	width: 100%;
