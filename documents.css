@@ -1,9 +1,19 @@
+p{
+	color: white;
+	font-size: 15.5px;
+	text-align: left;
+}
+
+li{
+	font-size: 15.5px;
+}
+
 div.background {
     background: #eb8d3a; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* Standard syntax */
+    background: linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* Standard syntax */
 }
 
 img.DL{
@@ -18,9 +28,7 @@ div.downloads-panel{
   max-width: 700px;
   line-height:50px;
   font-family: "CenturyGothic";
-  font-size:20px;
-  font-weight: 400;
-  margin: 0 auto;
+  font-size: 20px;
   /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);*/
   -webkit-transition: all 0.3s ease-out;
    -moz-transition: all 0.3s ease-out;
@@ -30,21 +38,17 @@ div.downloads-panel{
    margin-bottom: 10px;
    padding-left:10px;
    border-radius:4px;
-  background-color: #fde079;
+   background: white;
 }
 
-div.collapse{
+div.download-body{
   color: white;
   text-align: left;
   padding-bottom: 20px;
 }
 
 .downloads-panel a{
-  color:black;
-}
-
-#applications{
-  background-color: #b1d782;
+  color: #4d0000;
 }
 
 .download-body{
@@ -52,4 +56,22 @@ div.collapse{
   max-width: 700px;
   margin: 0 auto;
 
+}
+
+div.required{
+  background-color: #ffff99;
+}
+
+.download-button{
+	margin: 0;
+	padding: 0;
+}
+
+div.downloads-section{
+	margin: 0 20%;
+	padding: 0 2.5%;
+}
+
+div.downloads-panel{
+	width: 100%;
 }
