@@ -116,6 +116,44 @@ div.downloads-panel{
 div.calendars{
 	max-width: 1000px;
 }
+
+div.key{
+  text-align: left;
+  color: black;
+  font-size: 17px;
+  background: white;
+  line-height: 12px;
+  height: 50px;
+  width: 350px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+div.keyans{
+  height: 30px;
+  display: inline-block;
+  float: left; 
+  padding-top: 10px;
+}
+
+div.keys{
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+
+}
+
+div.key1{
+  background: #72191b;
+}
+
+div.key2{
+  background: #cc6032;
+  margin-left: 20px;
+}
+
 div.m{
 	margin-bottom: 50px;
 }
@@ -147,19 +185,7 @@ ul.calendar {list-style-type: none;}
     letter-spacing: 3px;
 }
 
-/* Previous button inside month header */
-.month .prev {
-    float: left;
-    padding-top: 10px;
-}
-
-/* Next button */
-.month .next {
-    float: right;
-    padding-top: 10px;
-}
-
-/* Weekdays (Mon-Sun) */
+/* Weekdays (Sun-Sat) */
 .weekdays {
     margin: 0;
     padding: 5px 0;
@@ -167,11 +193,14 @@ ul.calendar {list-style-type: none;}
 }
 
 .weekdays li {
+    margin: 0; padding: 0;
     display: inline-block;
     width: 13.6%;
     color: white;
     text-align: center;
+    margin: 0 -2.5px 0 -2.5px;
 }
+
 
 /* Days (1-31) */
 .days {
@@ -183,8 +212,10 @@ ul.calendar {list-style-type: none;}
 .days li {
     list-style-type: none;
     display: inline-block;
+    position: relative;
+    z-index: 0;
     width: 14%;
-    height: 50px;
+    height: 70px;
     text-align: left;
     padding: 0 5px;
     font-size:12px;
@@ -200,6 +231,7 @@ li.DL{
 
 li.OH{
   background: #cc6032;
+  color: white;
 }
 
 li.faded{
@@ -211,5 +243,23 @@ li.faded{
     padding: 5px;
     background: #1abc9c;
     color: white !important
+}
+
+li.DL p{
+  margin-left: -3px;
+  position: absolute;
+  z-index: 1;
+}
+
+li.OH p{
+  margin-left: -3px;
+  position: absolute;
+  z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  li p{
+    font-size: 10px;
+  }
 }
 /*/////////////////////DEADLINES END/////////////////////*/
