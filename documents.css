@@ -15,9 +15,9 @@ li{
 
 div.background {
     background: #eb8d3a; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffe066); /* For Firefox 3.6 to 15 */
+    background: -webkit-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* Standard syntax */
 }
 
@@ -40,8 +40,8 @@ div.downloads-panel{
   width:100%;
   max-width: 800px;
   line-height:50px;
-  font-family: "CenturyGothic";
-  font-size: 20px;
+  font-family: "TheBoldFont";
+  font-size: 22px;
   /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.3);*/
   -webkit-transition: all 0.3s ease-out;
    -moz-transition: all 0.3s ease-out;
@@ -66,18 +66,15 @@ div.downloads-panel{
 		line-height: 25px;
 		padding-top: 5px;
 	}
-	div.downloads-panel{
-		font-size: 13px;
-	}
 }
 
-@media only screen and (max-width: 487px) {
+@media only screen and (max-width: 547px) {
 	img.long{
 		margin-top: -15px;
 	}
 }
 
-@media only screen and (max-width: 367px) {
+@media only screen and (max-width: 410px) {
 	img.long1{
 		margin-top: -15px;
 	}
@@ -90,7 +87,7 @@ div.download-body{
 }
 
 .downloads-panel a{
-  color: #4d0000;
+  color: #260f12;
 }
 
 .download-body{
@@ -113,3 +110,106 @@ div.required{
 div.downloads-panel{
 	width: 100%;
 }
+
+
+/*/////////////////////DEADLINES START/////////////////////*/
+div.calendars{
+	max-width: 1000px;
+}
+div.m{
+	margin-bottom: 50px;
+}
+
+ul.calendar {list-style-type: none;}
+
+/* Month header */
+.month {
+	font-family: "TheBoldFont";
+    padding: 15px 25px;
+    width: 100%;
+    background: #260f12;
+    text-align: center;
+    line-height: 35px;
+}
+
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+	padding: 0;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 5px 0;
+    background-color:#4d0000;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: white;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 14%;
+    height: 50px;
+    text-align: left;
+    padding: 0 5px;
+    font-size:12px;
+    margin: 0 -2.5px -2px -2.5px;
+    color: black;
+    border: 1px solid #555;
+}
+
+li.DL{
+  background: #72191b;
+  color: white;
+}
+
+li.OH{
+  background: #cc6032;
+}
+
+li.faded{
+	color: #b3b3b3;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+/*/////////////////////DEADLINES END/////////////////////*/
