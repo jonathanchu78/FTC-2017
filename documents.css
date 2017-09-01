@@ -15,10 +15,10 @@ li{
 
 div.background {
     background: #eb8d3a; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a); /* Standard syntax */
+    background: -webkit-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a, #ffe066); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a, #ffe066); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a, #ffe066); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4d0000, #72191b, #cc6032, #eb8d3a, #ffe066); /* Standard syntax */
 }
 
 img.DL{
@@ -83,7 +83,7 @@ div.downloads-panel{
 div.download-body{
   color: white;
   text-align: left;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .downloads-panel a{
@@ -114,19 +114,28 @@ div.downloads-panel{
 
 /*/////////////////////DEADLINES START/////////////////////*/
 div.calendars{
-	max-width: 1000px;
+	max-width: 1000px; 
+  margin-bottom: 0;
 }
 
 div.key{
+  font-family: "TheBoldFont";
   text-align: left;
   color: black;
-  font-size: 17px;
+  font-size: 18px;
   background: white;
   line-height: 12px;
-  height: 50px;
-  width: 350px;
+  height: 120px;
+  width: 500px;
   margin-bottom: 20px;
   padding: 10px;
+}
+
+div.DLOH{
+  font-family: "CenturyGothic";
+  font-size: 12px;
+  padding: 10px 0;
+  line-height: 20px;
 }
 
 div.keyans{
@@ -156,6 +165,10 @@ div.key2{
 
 div.m{
 	margin-bottom: 50px;
+}
+
+div.October{
+  margin-bottom: 0;
 }
 
 ul.calendar {list-style-type: none;}
@@ -215,7 +228,7 @@ ul.calendar {list-style-type: none;}
     position: relative;
     z-index: 0;
     width: 14%;
-    height: 70px;
+    height: 110px;
     text-align: left;
     padding: 0 5px;
     font-size:12px;
@@ -234,6 +247,22 @@ li.OH{
   color: white;
 }
 
+li.both{
+  padding: 0;
+}
+
+div.upper{
+  height: 60%; margin: 0; padding: 0 4%;
+  background: #72191b;
+  color: white;
+}
+
+div.lower{
+  height: 40%; margin: 0; padding: 0 4%;
+  background: #cc6032;
+  color: white;
+}
+
 li.faded{
 	color: #b3b3b3;
 }
@@ -245,16 +274,16 @@ li.faded{
     color: white !important
 }
 
-li.DL p{
+li.DL p, li.OH p, li.both p{
   margin-left: -3px;
   position: absolute;
   z-index: 1;
 }
 
-li.OH p{
-  margin-left: -3px;
-  position: absolute;
-  z-index: 1;
+@media only screen and (max-width: 900px) {
+  li p{
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -263,3 +292,7 @@ li.OH p{
   }
 }
 /*/////////////////////DEADLINES END/////////////////////*/
+
+div.bottom{
+  margin-top: -4%;
+}
