@@ -97,6 +97,10 @@ div.download-body{
 
 }
 
+a.lightblue{
+  color: #8ec8ff;
+}
+
 div.required{
   background-color: #ffff99;
 }
@@ -236,7 +240,7 @@ ul.calendar {list-style-type: none;}
     font-size:12px;
     margin: 0 -2.5px -2px -2.5px;
     color: black;
-    border: 1px solid black;
+    border: 1px solid white;
 }
 
 li.DL{
@@ -281,6 +285,7 @@ ul.calendar li p{
   position: absolute;
   z-index: 1;
 }
+
 
 li.Other p{
   color: black;
