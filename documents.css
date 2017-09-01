@@ -125,14 +125,16 @@ div.key{
   font-size: 18px;
   background: white;
   line-height: 12px;
-  height: 120px;
-  width: 500px;
+  height: 50px;
+  width: 400px;
   margin-bottom: 20px;
   padding: 10px;
 }
 
 div.DLOH{
   font-family: "CenturyGothic";
+  color: white;
+  text-align: left;
   font-size: 12px;
   padding: 10px 0;
   line-height: 20px;
@@ -218,7 +220,7 @@ ul.calendar {list-style-type: none;}
 /* Days (1-31) */
 .days {
     padding: 10px 0;
-    background: #eee;
+    background: white;
     margin: 0;
 }
 
@@ -234,7 +236,7 @@ ul.calendar {list-style-type: none;}
     font-size:12px;
     margin: 0 -2.5px -2px -2.5px;
     color: black;
-    border: 1px solid #555;
+    border: 1px solid black;
 }
 
 li.DL{
@@ -274,10 +276,15 @@ li.faded{
     color: white !important
 }
 
-li.DL p, li.OH p, li.both p{
+ul.calendar li p{
   margin-left: -3px;
   position: absolute;
   z-index: 1;
+}
+
+li.Other p{
+  color: black;
+  font-size: 15px;
 }
 
 @media only screen and (max-width: 900px) {
