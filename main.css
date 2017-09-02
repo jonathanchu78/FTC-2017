@@ -241,20 +241,6 @@ div.filler{
 /*///////////////////// ANIMATION END ////////////////////////*/
 
 
-
-/*///////////////////// ANNOUNCEMENTS BEGIN ////////////////////////*/
-div.announcements{
-	height: 0px;
-    background: #eb8d3a; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#F9ED61, #F9C836); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#F9ED61, #F9C836); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#F9ED61, #F9C836); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#F9ED61, #F9C836); /* Standard syntax */
-}
-/*///////////////////// ANNOUNCEMENTS END ////////////////////////*/
-
-
-
 /*////////////////// SECTION 0 BEGIN ////////////////////////////////*/
 div.section0{padding: 0;margin: -1px 0 0 0}
 div.left {margin: 0; padding: 0;}
