@@ -180,6 +180,49 @@ img.icon{
 
 
 
+/*///////////////////// SLIDESHOW BEGIN ////////////////////////*/
+div.carousel-inner{
+	height: 50%;
+	background: #F9ED61;
+}
+
+
+img.slideshow{
+	width: 40%;
+	margin: 3% auto;
+}
+
+/* ///////////////////// MODIFYING BOOTSTRAP SLIDESHOW /////////////////////*/
+.carousel-control{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 15%;
+  color: black;
+  text-align: center;
+  opacity: 0.2;
+}
+
+.carousel-control:hover, .carousel-control:focus{
+	opacity: 0.3;
+}
+
+/* //////////////////////// MEDIA QUERIES ////////////////////////////*/
+/*///////////////////// SLIDESHOW END ////////////////////////*/
+
+
 
 /*///////////////////// ANIMATION BEGIN ////////////////////////*/
 video{
