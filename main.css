@@ -186,13 +186,10 @@ div.carousel-inner{
 	background: #F9ED61;
 }
 
-img.tr{
-	width: 70%;
+img.tr, img.ctf{
+	width: 100%;
 }
 
-img.ctf{
-	width: 60%;
-}
 
 img.slideshow{
 	width: 40%;
@@ -201,7 +198,7 @@ img.slideshow{
 
 
 
-/* ///////////////////// MODIFYING BOOTSTRAP SLIDESHOW /////////////////////*/
+/* ///////////////////// MODIFYING BOOTSTRAP CAROUSEL /////////////////////*/
 .carousel-control{
   position: absolute;
   top: 0;
@@ -224,10 +221,20 @@ img.slideshow{
   opacity: 0.2;
 }
 
+.carousel-indicators {
+	display: none;
+}
+
 .carousel-control:hover, .carousel-control:focus{
 	opacity: 0.3;
 }
 
+@media only screen and (max-width: 700px) {
+	img.slideshow{
+		width: 80%;
+		margin: 3% auto;
+	}
+}
 /*///////////////////// SLIDESHOW END ////////////////////////*/
 
 
