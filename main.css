@@ -190,10 +190,13 @@ img.tr, img.ctf{
 	width: 100%;
 }
 
-
 img.slideshow{
 	width: 40%;
 	margin: 3% auto;
+}
+
+img.dbl{
+	width: 70%;
 }
 
 /* ///////////////////// MODIFYING BOOTSTRAP CAROUSEL /////////////////////*/
