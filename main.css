@@ -285,12 +285,18 @@ div.filler{
 		font-size: 32px;
 		margin: 10px 0;
 	}
+	#demo{
+		font-size: 80px;
+	}
 }
 
 @media only screen and (max-width: 1000px) {
 	h2{
 		font-size: 25px;
 		margin: 6px 0;
+	}
+	#demo{
+		font-size: 60px;
 	}
 }
 
@@ -300,7 +306,16 @@ div.filler{
 		margin: 4px 0;
 	}
 	div.filler{
-		height: 20px;
+		height: 60px;
+	}
+	#demo{
+		font-size: 40px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#demo{
+		font-size: 20px;
 	}
 }
 
