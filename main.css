@@ -261,6 +261,13 @@ div.details{
 	top: 80%; 
 	width: 100%;
 }
+
+#demo{
+	font-family:'TheBoldFont'; 
+	font-size: 100px;
+	color: #4d0000;
+}
+
 h2{
 	font-family: "TheBoldFont";
 	color: black;
@@ -268,7 +275,7 @@ h2{
 }
 
 div.filler{
-	height: 20px;
+	height: 130px;
 	margin: 0; padding: 0;
 	background: #F9ED61;
 }
