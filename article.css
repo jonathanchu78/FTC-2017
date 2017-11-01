@@ -1,0 +1,38 @@
+
+div.background {
+	margin: 0;
+	width: 100%;
+
+    background: #eb8d3a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffeb99); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffeb99); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#72191b, #cc6032, #eb8d3a, #ffeb99); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #72191b, #cc6032, #eb8d3a, #ffeb99); /* Standard syntax */
+}
+
+div.inner{
+	padding: 2% 3% 0 3%;
+}
+
+#title{
+	font-family: "TheBoldFont";
+	font-size: 40px;
+}
+
+div.content{
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+img.imgs{
+	width: 80%;
+	margin: 2% 0 10% 0;
+}
+
+div.bottom{
+	width: 100%;
+	margin-top: -16%;
+}
