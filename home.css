@@ -1,0 +1,42 @@
+body{
+	margin: 0;
+}
+
+div.background{
+	height: 1580px;
+	margin: -2px 0 0 0; padding: 0;
+    background: #eb8d3a; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#eb8d3a, #ffcc66, #ffeb99, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#eb8d3a, #ffcc66, #ffeb99, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #eb8d3a, #ffcc66, #ffeb99, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(  #eb8d3a, #ffcc66, #ffeb99, white); /* Standard syntax */
+}
+
+div.feedback{
+	margin: 150px auto 0 auto;
+	font-family: "TheBoldFont";
+	font-size: 30px;
+	color: black;
+}
+
+img.fill{
+	width: 200px;
+	margin-left: -250px;
+}
+
+img.btn{
+	width: 40%;
+}
+
+div.video{
+	margin-top: 200px;
+}
+
+div.bottom{
+	position:fixed;
+    bottom:0px;
+}
+
+img.btm, img.thx{
+	width: 100%;
+}
