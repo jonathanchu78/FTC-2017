@@ -89,3 +89,22 @@ img.btm, img.thx{
 		margin-top: 100px;
 	}
 }
+
+@media only screen and (max-width: 600px){
+	div.background{
+		height: 1150px;
+	}
+	div.filler1{
+		height: 8%;
+	}
+	img.fill{
+		width: 150px;
+		margin-left: -150px;
+	}
+	div.feedback{
+		margin-top: 100px;
+	}
+	div.video{
+		margin-top: 100px;
+	}
+}
