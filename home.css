@@ -3,7 +3,7 @@ body{
 }
 
 div.background{
-	height: 1580px;
+	height: 1700px;
 	margin: -2px 0 0 0; padding: 0;
     background: #eb8d3a; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#eb8d3a, #ffcc66, #ffeb99, white); /* For Safari 5.1 to 6.0 */
@@ -12,8 +12,26 @@ div.background{
     background: linear-gradient(  #eb8d3a, #ffcc66, #ffeb99, white); /* Standard syntax */
 }
 
+div.top{
+	width: 100%;
+	height: 30px;
+	background: #4d0000;
+	padding-top: 5px;
+	position: fixed;
+	top: 0px;
+}
+
+a.white{
+	color: white;
+}
+
+div.filler1{
+	width: 100%;
+	height: 1%;
+}
+
 div.feedback{
-	margin: 150px auto 0 auto;
+	margin: 180px auto 0 auto;
 	font-family: "TheBoldFont";
 	font-size: 30px;
 	color: black;
@@ -25,11 +43,17 @@ img.fill{
 }
 
 img.btn{
-	width: 40%;
+	width: 70%;
+	max-width: 500px;
 }
 
 div.video{
 	margin-top: 200px;
+}
+
+div.filler2{
+	width: 100%;
+	height: 5%;
 }
 
 div.bottom{
@@ -39,4 +63,29 @@ div.bottom{
 
 img.btm, img.thx{
 	width: 100%;
+}
+
+
+@media only screen and (min-width: 1500px){
+	div.background{
+		height: 1950px;
+	}
+	div.filler1{
+		height: 3%;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	div.background{
+		height: 1350px;
+	}
+	div.filler1{
+		height: 5%;
+	}
+	div.feedback{
+		margin-top: 100px;
+	}
+	div.video{
+		margin-top: 100px;
+	}
 }
